@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Spyder
+Version=2.0
+Type=Application
+Exec=/home/zhaoliang/anaconda3/bin/spyder
+Icon=/home/zhaoliang/anaconda3/lib/python3.8/site-packages/anaconda_navigator/static/images/spyder-icon-1024x1024.png
+Comment=Open spyder
+Terminal=false
+
