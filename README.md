@@ -1,1 +1,1 @@
-# Linux_Ubuntu_Skills
+# Linux_Skills
