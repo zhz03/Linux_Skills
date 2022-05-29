@@ -48,30 +48,10 @@ sudo apt install gnome-shell-extensions
 # install Gnome extensions
 # https://extensions.gnome.org/extension/307/dash-to-dock/
 
-# install remmina
-sudo snap install remmina
-
-# install media player
-sudo snap install vlc
-
 # install java
 sudo apt install default-jre
 sudo apt install default-jdk
 
-# install zoom
-# using snap store or:
-sudo snap install zoom-client
-
-# install pycharm
-sudo snap install pycharm-professional --classic
-
-# install clion
-sudo snap install clion --classic
-
-# install snap store
-sudo apt update
-sudo apt install snapd
-sudo snap install snap-store
 
 # install wps office
 # go to https://www.wps.com/

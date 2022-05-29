@@ -68,11 +68,6 @@ sudo snap install pycharm-professional --classic
 # install clion
 sudo snap install clion --classic
 
-# install snap store
-sudo apt update
-sudo apt install snapd
-sudo snap install snap-store
-
 # install wps office
 # go to https://www.wps.com/
 # cd Downloads/
