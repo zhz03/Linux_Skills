@@ -1,0 +1,30 @@
+name: sample
+channels:
+  - defaults
+dependencies:
+  - pip==21.1.2
+  - python==3.7.11
+  - pip:
+    - matplotlib==3.4.2
+    - numpy
+    - setuptools
+    - wheel
+    - twine
+    - cookiecutter
+    - flake8
+    - coverage
+    - tox
+    - sphinx 
+    - sh
+    - passpy
+    - PyNaCl
+    - mkdocs
+    - mkdocs-material-extensions
+    - django-material
+    - django
+    - mkdocs-include-markdown-plugin
+    - mkdocstrings
+    - mkdocs-material
+    - mkdocstrings-python
+    - m2r # M2R converts a markdown file including reStructuredText (rst) markups to a valid rst format.
+

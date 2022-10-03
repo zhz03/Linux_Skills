@@ -1,0 +1,72 @@
+site_name: Linux_Skills
+site_url: https://zhz03.github.io/Linux_Skills
+repo_url: https://github.com/zhz03/Linux_Skills
+repo_name: zhz03/Linux_Skills
+#strict: true
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Ubuntu:
+      - How to setup New Ubunutu: ubuntu/How_to_setup_new_ubuntu.md
+      - How to install ROS: ubuntu/How_to_install_ROS.md 
+      - How to install Anaconda: ubuntu/How_to_install_Anaconda.md
+      - Touchpad_support_gesture: ubuntu/Touchpad_support_gesture.md
+  - Raspberry Pi:
+    - Install Raspberry Pi without monitor: raspberryPi/Install_Raspberry_Pi_without_monitor.md
+theme:
+  name: material # readthedocs # mkdocs # material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    scheme: preference
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.tabs
+    - navigation.tabs.sticky
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      linenums: false
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - admonition
+  - toc:
+      baselevel: 2
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - meta
+plugins:
+  - include-markdown
+  - search:
+      lang: en
+  - mkdocstrings:
+      watch:
+        - Shell_files
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zhz03/mkdocs_sample
+      name: Github
+    - icon: material/email
+      link: "mailto:zhz03@g.ucla.edu"
+  # to enable disqus, uncomment the following and put your disqus id below
+  # disqus: disqus_id
+# uncomment the following and put your google tracking id below to enable GA
+#google_analytics:
+  #- UA-xxx
+  #- auto
