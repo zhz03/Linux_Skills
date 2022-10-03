@@ -60,7 +60,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/zhz03/mkdocs_sample
+      link: https://github.com/zhz03/Linux_Skills
       name: Github
     - icon: material/email
       link: "mailto:zhz03@g.ucla.edu"
