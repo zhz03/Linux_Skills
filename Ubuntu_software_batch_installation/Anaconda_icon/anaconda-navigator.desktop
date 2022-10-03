@@ -3,8 +3,8 @@
 Name=Anaconda
 Version=2.0
 Type=Application
-Exec=/home/zhaoliang/anaconda3/bin/anaconda-navigator
-Icon=/home/zhaoliang/anaconda3/lib/python3.8/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
+Exec=/home/nxp/anaconda3/bin/anaconda-navigator
+Icon=/home/nxp/anaconda3/lib/python3.9/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
 Comment=Open Anaconda Navigator
 Terminal=false
 
