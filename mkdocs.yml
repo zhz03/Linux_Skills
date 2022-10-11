@@ -12,6 +12,7 @@ nav:
       - How to install Anaconda: ubuntu/How_to_install_Anaconda.md
       - Touchpad_support_gesture: ubuntu/Touchpad_support_gesture.md
       - How to create alias: ubuntu/How_to_create_alias.md
+      - How to visualize git: ubuntu/How_to_visualize_git.md
   - Raspberry Pi:
     - Install Raspberry Pi without monitor: raspberryPi/Install_Raspberry_Pi_without_monitor.md
 theme:
