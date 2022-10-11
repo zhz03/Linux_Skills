@@ -3,8 +3,8 @@
 Name=Jupyter
 Version=2.0
 Type=Application
-Exec=/home/zhaoliang/anaconda3/bin/jupyter-notebook
-Icon=/home/zhaoliang/anaconda3/lib/python3.9/site-packages/anaconda_navigator/static/images/jupyter-icon-1024x1024.png
+Exec=/home/zzl/anaconda3/bin/jupyter-notebook
+Icon=/home/zzl/anaconda3/lib/python3.9/site-packages/anaconda_navigator/static/images/jupyter-icon-1024x1024.png
 Comment=Open jupyter-notebook
 Terminal=false
 
