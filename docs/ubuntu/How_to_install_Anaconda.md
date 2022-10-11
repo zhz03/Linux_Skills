@@ -63,5 +63,20 @@ Now you can manually launch anaconda-navigator from your terminal
 
   - Now you'll see your Anaconda navigator on your application menu/list
 
+
+- Step 5: conda init for your bash
+
+  - after you run:
+
+    ```
+    export PATH=/home/yourusername/anaconda3/bin:$PATH
+    ```
+
+  - You can initialize conda in your terminal by running:
+
+    ```
+    conda init
+    ```
+
     
 
