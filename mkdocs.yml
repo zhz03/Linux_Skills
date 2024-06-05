@@ -15,6 +15,9 @@ nav:
       - How to visualize git: ubuntu/How_to_visualize_git.md
   - Raspberry Pi:
     - Install Raspberry Pi without monitor: raspberryPi/Install_Raspberry_Pi_without_monitor.md
+  - Docker:
+    - Docker general quetion: docker/docker_general_questions.md
+    - How to use portainer: docker/How_to_use_portainer.md
 theme:
   name: material # readthedocs # mkdocs # material
   language: en
