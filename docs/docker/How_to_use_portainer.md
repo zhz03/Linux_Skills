@@ -32,3 +32,5 @@ f65f4a83c688   portainer/portainer-ce:latest   "/portainer"   25 minutes ago   U
 ## Reference
 
 [1] [https://docs.portainer.io/start/install-ce/server/docker/linux](https://docs.portainer.io/start/install-ce/server/docker/linux)
+
+[2] [https://www.cnblogs.com/JerryMouseLi/p/15571897.html](https://www.cnblogs.com/JerryMouseLi/p/15571897.html)

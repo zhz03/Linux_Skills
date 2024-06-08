@@ -78,5 +78,38 @@ Now you can manually launch anaconda-navigator from your terminal
     conda init
     ```
 
-    
+  - It’s recommended that you disable automatic activation of the conda base environment by running:
+  
+    ```
+    conda config --set auto_activate_base false
+    ```
+  
+
+## How to install miniconda
+
+### Difference between anaconda and miniconda
+
+The main difference between Anaconda and Miniconda lies in their size and the number of pre-installed packages. **Anaconda is larger and comes with a vast array of pre-installed packages, while Miniconda is smaller and only includes Conda and Python**.
+
+### Step-by-step process
+
+**Step1:** Download miniconda installation script:
+
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+**Step2:** Install miniconda into specific location
+
+```
+sudo bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/miniconda3
+```
+
+This will install miniconda into `/opt/miniconda3`
+
+**Step3:** setup environment path
+
+```shell
+export PATH="/opt/miniconda3/bin:$PATH"
+```
 
